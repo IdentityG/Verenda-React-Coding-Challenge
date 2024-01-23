@@ -11,7 +11,7 @@ function Columns({ list, onTaskAdd }) {
     <Droppable droppableId={list.id}>
       {(provided) => (
         <div
-          className={`cursor-pointer h-[400px] bg-[#a8daf9] ${list.id}`}
+          className={`cursor-pointer h-[400px] bg-[#81b8db] ${list.id}`}
           {...provided.droppableProps}
           ref={provided.innerRef}
         >
